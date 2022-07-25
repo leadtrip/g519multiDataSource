@@ -1,5 +1,8 @@
 package wood.mike
 
+/**
+ * Associated with logging dataSource
+ */
 class LogEntry {
 
     Date dateCreated

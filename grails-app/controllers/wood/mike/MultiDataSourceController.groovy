@@ -7,6 +7,8 @@ class MultiDataSourceController {
     def exerciseService
 
     def index() {
-        [cyclists: cyclistService.findAll(), exercises: exerciseService.findAll(), logEntries: logEntryService.findAll()]
+        [cyclists: cyclistService.findAll(),
+         exercises: exerciseService.findAll(),
+         logEntries: logEntryService.findAll()]
     }
 }
